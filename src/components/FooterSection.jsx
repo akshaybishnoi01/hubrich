@@ -12,16 +12,16 @@ const FooterSection = () => {
                             All Rights Reserved
                         </p>
                         <div className=' absolute sm:flex hidden flex-col gap-3 bottom-24 xl:right-0 right-[5%] z-[1]'>
-                            <a href='https://www.facebook.com/' target='blank' className=' hover:scale-110 duration-300 '><Facebook /></a>
-                            <a href='https://x.com/?lang=en' target='blank' className=' hover:scale-110 duration-300    '><Twitter /></a>
-                            <a href='https://mail.google.com/mail/u/0/#inbox' target='blank' className=' hover:scale-110 duration-300   '><Massage /></a>
-                            <a href='https://www.instagram.com/' target='blank' className=' hover:scale-110 duration-300    '><Insta /></a>
+                            <a aria-label='facebook' href='https://www.facebook.com/' target='blank' className=' hover:scale-110 duration-300 '><Facebook /></a>
+                            <a aria-label='twitter' href='https://x.com/?lang=en' target='blank' className=' hover:scale-110 duration-300    '><Twitter /></a>
+                            <a aria-label='mail' href='https://mail.google.com/mail/u/0/#inbox' target='blank' className=' hover:scale-110 duration-300   '><Massage /></a>
+                            <a aria-label='insta' href='https://www.instagram.com/' target='blank' className=' hover:scale-110 duration-300    '><Insta /></a>
                         </div>
                         <div className=' sm:hidden flex justify-center pt-6  gap-3'>
-                            <a href='https://www.facebook.com/' target='blank' className=' hover:scale-110 duration-300 '><Facebook /></a>
-                            <a href='https://x.com/?lang=en' target='blank' className=' hover:scale-110 duration-300    '><Twitter /></a>
-                            <a href='https://mail.google.com/mail/u/0/#inbox' target='blank' className=' hover:scale-110 duration-300   '><Massage /></a>
-                            <a href='https://www.instagram.com/' target='blank' className=' hover:scale-110 duration-300    '><Insta /></a>
+                            <a aria-label='facebook'  href='https://www.facebook.com/' target='blank' className=' hover:scale-110 duration-300 '><Facebook /></a>
+                            <a aria-label='twitter'  href='https://x.com/?lang=en' target='blank' className=' hover:scale-110 duration-300    '><Twitter /></a>
+                            <a aria-label='mail' href='https://mail.google.com/mail/u/0/#inbox' target='blank' className=' hover:scale-110 duration-300   '><Massage /></a>
+                            <a aria-label='insta' href='https://www.instagram.com/' target='blank' className=' hover:scale-110 duration-300    '><Insta /></a>
                         </div>
                     </div>
                     

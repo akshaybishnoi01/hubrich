@@ -10,12 +10,12 @@ const NonBinding = () => {
                             <h4 className=' md:text-[52px] text-[45px] font-helveticaNeue leading-[66px] text-center font-normal max-w-[388px] text-[#000000] uppercase'>
                                 Request your
                             </h4>
-                            <h4 className=' md:text-[52px] text-[45px] font-helveticaNeue leading-[66px] text-center font-normal max-w-[610px] text-[#F8831A] uppercase'>
+                            <h5 className=' md:text-[52px] text-[45px] font-helveticaNeue leading-[66px] text-center font-normal max-w-[610px] text-[#F8831A] uppercase'>
                                 non-binding <span className=' text-[#000000]'>strategy</span>
-                            </h4>
-                            <h4 className='md:text-[52px] text-[45px] font-helveticaNeue text-center leading-[66px] font-normal max-w-[370px] text-[#000000] uppercase'>
+                            </h5>
+                            <h6 className='md:text-[52px] text-[45px] font-helveticaNeue text-center leading-[66px] font-normal max-w-[370px] text-[#000000] uppercase'>
                                 meeting now!
-                            </h4>
+                            </h6>
                         </div>
                         <div className=' lg:w-5/12 w-full flex lg:justify-end justify-center lg:pt-0 pt-10 px-3'>
                             <div className=' flex justify-end'>
