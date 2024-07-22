@@ -35,10 +35,10 @@ const HeroSection = () => {
                 </button>
               </li>
             </ul>
-            <div onClick={handleToggle} className=" relative w-5 h-4 block md:hidden z-20">
+            <div onClick={handleToggle} className=" relative w-5 h-4 block md:hidden z-20 cursor-pointer">
               <span className={`${isOpen ? 'top-1/2 -translate-y-1/2 rotate-45' : 'top-0'} left-0 duration-300 ease-linear absolute w-full h-0.5 bg-blue-700`}></span>
               <span className={`${isOpen ? 'hidden' : 'flex'} absolute w-full top-1/2 -translate-y-1/2 h-0.5 bg-blue-700`}></span>
-              <span className={`${isOpen ? 'bottom-1/2 -translate-y-1/2 -rotate-45': 'bottom-0'} left-0 duration-300 ease-linear absolute w-full h-0.5 bg-blue-700`}></span>
+              <span className={`${isOpen ? 'top-1/2 -translate-y-1/2 -rotate-45': 'bottom-0'} left-0 duration-300 ease-linear absolute w-full h-0.5 bg-blue-700`}></span>
             </div>
           </div>
         </nav>
