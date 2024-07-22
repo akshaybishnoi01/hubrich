@@ -15,7 +15,7 @@ import FooterSection from './components/FooterSection';
 
 function App() {
   return (
-   <div className=' overflow-hidden'>
+   <div className=' overflow-hidden max-w-[1920px] mx-auto'>
    <HeroSection/>
    <YourFault/>
    <WillGet/>
