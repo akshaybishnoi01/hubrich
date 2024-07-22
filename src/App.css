@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+
+
+.u_line {
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.u_line::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  border-radius: 4px;
+  background-color: #2C48CE;
+  bottom: -2px;
+  left: 0px;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: all 0.4s ease-in-out;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.u_line:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+.webkit {
+  -webkit-text-stroke: #2C48CE;
+  transition: .6s;
+}
+
+.webkit:hover {
+  -webkit-text-stroke: 0.5px #2C48CE;
+  color: #2C48CE;
+}
+
+.btn_webkit::after {
+  -webkit-mask:
+     linear-gradient(#fff 0 0) content-box,
+     linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+
+.slick-prev:before {
+  background-image: url(./assets/image/svg/arror1.svg);
+  width: 18px !important;
+  height: 34px !important;
+  color: transparent !important;
+  opacity: 1 !important;
+  display: flex !important;
+  background-size: cover !important;
+}
+.slick-prev {
+  bottom: 6% !important;
+  top: auto !important;
+  left: -35px !important;
+}
+.slick-next:before {
+  background-image: url(./assets/image/svg/arror2.svg);
+  width: 18px !important;
+  height: 34px !important;
+  color: transparent !important;
+  opacity: 1 !important;
+  display: flex !important;
+  background-size: cover !important;
+}
+.slick-next {
+  bottom: 6% !important;
+  top: auto !important;
+  left: 25px !important;
+}
+@media (max-width: 576px) {
+  .slick-prev:before {
+    display: none !important;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .slick-next:before {
+    display: none !important;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ }
+
+
+ .mm {
+  background-image: url(./assets/image/webp/nonbinding.webp);
+ }
